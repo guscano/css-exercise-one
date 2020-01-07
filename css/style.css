@@ -1,36 +1,54 @@
-body
+body {
   font-size: 14px;
 }
+/*size of font throughout page*/
 
 nav {
-  background color: yellow;
-  height: 100px;
-  margin-top: -10px;
-  position: fixed;
+  background-color: yellow;
+  height: 30px;
+  margin: 20px;
+  position: static;
   width: 100%;
+}
+/*nav bar at top, stays at top as you scroll down*/
 
+.example {
+  padding-top: 0;
+  text-align: center;
+}
+/*positions text and nav bar*/
 
 section {
   margin: 0 auto;
   width: 60%;
 }
+/*position of text within green elements*/
 
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
-}
+/*text info of yellow nav bar*/
 
 h3 {
   font-size: 1.3em;
+  padding-top: 35px;
+  text-align: center;
 }
+/*positions text within green elements*/
 
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+/*characteristics and position of element boxes*/
+
+.elementChange {
+  background-color: blue;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+/*new CSS to change background color of bottom three divs*/
